@@ -1,0 +1,60 @@
+# SERVICE AGREEMENT
+
+This Service Agreement ("Agreement") is made effective as of {{effective_date}} by and between {{company_name}} ("Company") and {{client_name}} ("Client").
+
+## 1. SERVICES
+
+The Company agrees to provide the following services to Client ("Services"):
+
+{{#each services}}
+- {{this}}
+{{/each}}
+
+## 2. PAYMENT TERMS
+
+{{payment_terms}}
+
+Total Project Fee: ${{project_fee}}
+
+Payment Schedule:
+{{#each payment_schedule}}
+- {{amount}}: {{description}}, due {{due_date}}
+{{/each}}
+
+## 3. TERM AND TERMINATION
+
+This Agreement shall commence on {{start_date}} and continue until {{end_date}}, unless terminated earlier as provided in this Agreement.
+
+{{#if early_termination}}
+Either party may terminate this Agreement early with {{termination_notice}} days written notice.
+{{/if}}
+
+## 4. CONFIDENTIALITY
+
+Both parties acknowledge that they may receive confidential information from the other party during the term of this Agreement. Both parties agree to keep all such information confidential and not to disclose such information to any third party without the prior written consent of the other party.
+
+## 5. INTELLECTUAL PROPERTY
+
+{{ip_terms}}
+
+## 6. LIMITATION OF LIABILITY
+
+IN NO EVENT SHALL EITHER PARTY BE LIABLE TO THE OTHER PARTY FOR ANY INDIRECT, SPECIAL, CONSEQUENTIAL, OR PUNITIVE DAMAGES, INCLUDING WITHOUT LIMITATION, LOSS OF PROFITS OR BUSINESS INTERRUPTION, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGES.
+
+## 7. GOVERNING LAW
+
+This Agreement shall be governed by and construed in accordance with the laws of the State of {{governing_law_state}}.
+
+## 8. ENTIRE AGREEMENT
+
+This Agreement constitutes the entire agreement between the parties regarding the subject matter hereof and supersedes all prior or contemporaneous agreements, understandings, and communications between the parties.
+
+## 9. SIGNATURES
+
+Client: ________________________________    Date: ________________
+Print Name: {{client_signatory_name}}
+Title: {{client_signatory_title}}
+
+Company: ________________________________    Date: ________________
+Print Name: {{company_signatory_name}}
+Title: {{company_signatory_title}}

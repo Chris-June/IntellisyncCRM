@@ -1,0 +1,30 @@
+
+
+Here's the updated list of OpenAI's models, ordered from lowest to highest cost, as of April 2025:
+
+1. **GPT-4o mini**:
+   - **Input tokens**: $0.15 per million
+   - **Output tokens**: $0.60 per million
+
+2. **o3-mini**:
+   - **Input tokens**: $1.10 per million
+   - **Cached input tokens**: $0.55 per million
+   - **Output tokens**: $4.40 per million
+
+3. **GPT-4o**:
+   - **Input tokens**: $2.50 per million
+   - **Output tokens**: $10.00 per million
+
+4. **OpenAI o1**:
+   - **Input tokens**: $15.00 per million
+   - **Cached input tokens**: $7.50 per million
+   - **Output tokens**: $60.00 per million
+
+5. **GPT-4.5**:
+   - **Input tokens**: $75.00 per million
+   - **Output tokens**: $150.00 per million
+
+6. **OpenAI o1-Pro**:
+   - **Input tokens**: $150.00 per million
+   - **Output tokens**: $600.00 per million
+

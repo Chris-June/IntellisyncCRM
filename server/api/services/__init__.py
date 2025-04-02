@@ -1,0 +1,4 @@
+# Import all service modules here
+from . import task_decomposer, agent_launcher, agent_orchestrator, calendar, revision_tracker, client_intake, discovery_analysis, opportunity_scoring, sales_funnel, contract_builder, client_approval, close_summary, retrospective, reengagement, filesystem, workflow_template, meeting_notes, deal_risk_detector, follow_up_reminder, project_management
+
+__all__ = ['task_decomposer', 'agent_launcher', 'agent_orchestrator', 'calendar', 'revision_tracker', 'client_intake', 'discovery_analysis', 'opportunity_scoring', 'sales_funnel', 'contract_builder', 'client_approval', 'close_summary', 'retrospective', 'reengagement', 'filesystem', 'workflow_template', 'meeting_notes', 'deal_risk_detector', 'follow_up_reminder', 'project_management']
