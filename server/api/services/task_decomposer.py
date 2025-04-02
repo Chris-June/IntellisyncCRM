@@ -5,7 +5,7 @@ from datetime import datetime
 from enum import Enum
 import uuid
 import logging
-from openai import OpenAIClient
+from openai import OpenAI
 from collections import defaultdict
 
 logger = logging.getLogger(__name__)
@@ -200,7 +200,8 @@ async def decompose_project(request: DecomposeRequest):
         """
 
         # Call OpenAI API with GPT-4o-mini
-        response = await OpenAIClient().chat_completion(
+        client = OpenAI()
+        response = client.chat.completions.create(
             model="gpt-4o-mini",
             messages=[{"role": "user", "content": prompt}],
             max_tokens=2000,
